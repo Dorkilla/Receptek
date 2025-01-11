@@ -1,6 +1,6 @@
-import React, {useContext} from 'react';
-import {ApiContext} from "..contexts/ApiContext";
-import SorReceptek from "..components/SorReceptek"
+import { ApiContext } from "../contexts/ApiContext";
+import { useContext } from "react";
+import SorReceptek from "./SorReceptek";
 
 
 function TablazatReceptek(){
@@ -26,3 +26,5 @@ function TablazatReceptek(){
         </div>
     )
 }
+
+export default TablazatReceptek;

@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
-import {ApiContext} from "..contexts/ApiContext";
-import SorReceptek from "..components/SorReceptek";
+import { ApiContext } from '../contexts/ApiContext';
+import SorReceptek from './SorReceptek';
 
 function Kategoria(){
     const {kategoriaLista}=useContext(ApiContext)

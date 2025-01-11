@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Kategoria from './components/Kategoria';
 import TablazatReceptek from './components/TablazatReceptek';
+
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       </header>
       <main>
       <Kategoria/>
-      <TablazatReceptek/>
+      <TablazatReceptek />
       </main>
       </div>
   );
